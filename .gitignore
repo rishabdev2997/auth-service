@@ -1,0 +1,37 @@
+# Ignore Maven build output directory everywhere
+
+
+# Include Maven wrapper files (do NOT ignore the actual wrapper jar)
+# So remove this line if it exists:
+# .mvn/wrapper/maven-wrapper.jar
+
+# Ignore environment files containing secrets
+.env
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# Ignore Gradle build output completely
+build/
+
+### VS Code ###
+.vscode/
