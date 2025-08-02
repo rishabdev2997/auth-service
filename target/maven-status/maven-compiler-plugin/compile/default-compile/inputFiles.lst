@@ -1,6 +1,7 @@
 E:\Rishab\Deploying\train-booking-system\auth-service\auth-service\src\main\java\com\example\auth_service\AuthServiceApplication.java
 E:\Rishab\Deploying\train-booking-system\auth-service\auth-service\src\main\java\com\example\auth_service\config\SecurityConfig.java
 E:\Rishab\Deploying\train-booking-system\auth-service\auth-service\src\main\java\com\example\auth_service\controller\AuthController.java
+E:\Rishab\Deploying\train-booking-system\auth-service\auth-service\src\main\java\com\example\auth_service\controller\HealthController.java
 E:\Rishab\Deploying\train-booking-system\auth-service\auth-service\src\main\java\com\example\auth_service\dto\LoginRequestDto.java
 E:\Rishab\Deploying\train-booking-system\auth-service\auth-service\src\main\java\com\example\auth_service\dto\LoginResponseDto.java
 E:\Rishab\Deploying\train-booking-system\auth-service\auth-service\src\main\java\com\example\auth_service\dto\RegisterRequestDto.java

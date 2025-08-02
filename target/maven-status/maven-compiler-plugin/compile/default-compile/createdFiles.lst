@@ -6,6 +6,7 @@ com\example\auth_service\dto\LoginRequestDto.class
 com\example\auth_service\model\User.class
 com\example\auth_service\controller\AuthController.class
 com\example\auth_service\dto\UserProfileRequestDto.class
+com\example\auth_service\controller\HealthController.class
 com\example\auth_service\dto\RegisterRequestDto.class
 com\example\auth_service\config\SecurityConfig.class
 com\example\auth_service\AuthServiceApplication.class

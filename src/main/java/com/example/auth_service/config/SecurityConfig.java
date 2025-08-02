@@ -34,7 +34,7 @@ public class SecurityConfig {
                 .sessionManagement(sm -> sm.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
                 .authorizeHttpRequests(auth -> auth
                         // Open endpoints:
-                        .requestMatchers("/api/v1/auth/login", "/api/v1/auth/register").permitAll()
+                        .requestMatchers("/api/v1/auth/login", "/api/v1/auth/register", "/ping").permitAll()
                         // Add role protection for /profile if desired:
                         .requestMatchers("/api/v1/auth/profile").hasAnyRole("USER", "ADMIN")
                         // Any other endpoint must be authenticated:
